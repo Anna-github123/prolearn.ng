@@ -1,0 +1,494 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #FFFFFF;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 0px;
+	height: 100%;
+	width: auto;
+}
+
+.header {
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+}
+
+.btn {
+	padding: .5rem 1rem;
+	background: slateblue;
+	color: white;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn-big {
+	padding: .7rem 1.3rem;
+	line-height: 1.3rem;
+}
+
+.btn:hover {
+	color: white !important;
+	background: slateblue;
+}
+
+.text-input {
+	padding: .7rem 1rem;
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #E0E0E0;
+	outline: none;
+	color: #444;
+	line-height: 1.5rem;
+	font-size: 1.2em;
+}
+
+.menu {
+	overflow: hidden;
+	background-color: white;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+.menu a {
+	float: right;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	padding: 0px 30px;
+	text-align: center;
+	border-radius: 8px;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 35px;
+}
+
+.menu a:visited {
+	background-color: white;
+	color: black;
+}
+
+.menu a:hover,
+a:active {
+	background-color: #F2F2F2;
+	color: black;
+}
+
+@media screen and (max-width: 600px) {
+	.menu a {
+		float: right;
+		width: 100%;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	background: black;
+	color: white;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+}
+
+.footer-content {
+	height: 535px;
+	display: flex;
+}
+
+.footer-content .footer-section {
+	flex: 1;
+	padding: 25px;
+}
+
+.footer-content .about span {
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 8px;
+}
+
+.footer-content .links a {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	transition: all .3s;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 17px;
+	text-decoration: none;
+	line-height: 2.3;
+}
+
+.footer-content .links a:hover {
+	color: slateblue;
+	margin-left: 15px;
+	transition: all .3s;
+}
+
+.footer-content .contact .contact-input {
+	background: #F2F2F2;
+	color: black;
+	margin-bottom: 10px;
+	line-height: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	padding: .9rem 1.4rem;
+	border: none;
+}
+
+.footer-content .contact .contact-input:focus {
+	background: white;
+}
+
+.footer-content .contact .contact-btn {
+	float: right;
+}
+
+.footer-bottom {
+	background-color: black;
+	color: white;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 0px;
+}
+
+@media (max-width: 750px) {
+
+	nav,
+	article {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.footer {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		height: auto;
+	}
+
+	.footer-content {
+		float: none;
+		display: block;
+		text-align: left;
+		height: auto;
+	}
+
+	.footer-content .contact {
+		padding-bottom: 90px;
+	}
+
+	.footer-content .contact .contact-btn {
+		width: 100%;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.page-wrapper {
+	min-width: 100%;
+}
+
+.page-wrapper a:hover {
+	color: black;
+}
+
+.bold {
+	color: slateblue;
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+#link-icon {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: transparent;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column-1 {
+	float: left;
+	width: 50%;
+	padding: 30px;
+	height: auto;
+	color: #ffffff;
+	font-size: 16px;
+	flex: 50%;
+}
+
+.main:after {
+	content: "";
+	display: table;
+	clear: both;
+	display: flex;
+}
+
+@media screen and (max-width: 900px) {
+	.column-1 {
+		width: 100%;
+	}
+}
+
+.main {
+	color: black;
+	text-align: left;
+	padding-left: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.link-4 {
+	background-color: slateblue;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.link-4:hover {
+	background-color: slateblue;
+}
+
+.p2 {
+	font-size: 30px;
+	color: black;
+}
+
+.h2 {
+	color: slateblue;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.back-video {
+	z-index: -1;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+}
+
+ul {
+	display: flex;
+}
+
+ul li {
+	position: relative;
+	display: block;
+	font-size: 30px;
+	height: 60px;
+	width: 60px;
+	color: white;
+	background: black;
+	line-height: 60px;
+	border-radius: 50%;
+	margin: 0 15px;
+	cursor: pointer;
+}
+
+ul li:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	z-index: -1;
+	transform: scale(0.9);
+	transition: .5s;
+}
+
+
+ul li:nth-child(1):before {
+	background: #2867B2;
+}
+
+ul li:nth-child(2):before {
+	background: #FFFFFF;
+}
+
+ul li:hover:before {
+	filter: blur(3px);
+	transform: scale(1.2);
+	/*box-shadow: 0 0 15px #4267B2*/
+}
+
+ul li:nth-child(1):hover:before {
+	box-shadow: 0 0 15px #2867B2;
+}
+ul li:nth-child(2):hover:before {
+	box-shadow: 0 0 15px #FFFFFF;
+}
+
+ul li:nth-child(1):hover {
+	color: #2A6CBB;
+	box-shadow: 0 0 15px #2867B2;
+	text-shadow: 0 0 15px #2867B2;
+}
+
+ul li:nth-child(2):hover {
+	color: #F2F2F2;
+	box-shadow: 0 0 15px #FFFFFF;
+	text-shadow: 0 0 15px #FFFFFF;
+}
+
+.center {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.H1 {
+	font-size: 60px;
+	color: slateblue;
+	line-height: 1.5;
+}
+
+.img1 {
+	vertical-align: middle;
+	width: 100%;
+	height: 28rem;
+	border: slateblue 3px solid;
+}
+
+.myslideshow-container {
+	max-width: 50%;
+	position: relative;
+	margin: auto;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	right: 94%;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+	color: black;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Number text (1/10) */
+.numbertext {
+	color: black;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dot {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+	.prev,
+	.next,
+	.text {
+		font-size: 11px
+	}
+}

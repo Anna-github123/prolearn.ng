@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Anna.</title>
+	<link rel="stylesheet" type="text/css" href="./css.css">
+	<link rel="shortcut icon" type="image/jpg" href="./lostworld.jpeg">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/3531098d29.js" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<header class="header">
+
+		<div class="menu">
+
+			<br>
+			<br>
+
+			<a href="./index.html"><img src="./lostworld.jpeg" alt="lost world."
+					style="position:absolute;left:5px;top:3px;width:85px;height:80px;padding:0px;" /></a>
+
+		</div>
+
+	</header>
+
+	<section>
+
+		<div class="page-wrapper">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="center">
+
+				<h1 class="H1">Anna's Personal Website</h1>
+				<h3>Certifications</h3>
+				<div class="myslideshow-container">
+					<div class="myslides fade">
+						<div class="numbertext">1 / 5</div>
+						<img class="img1" src="./5G Basics Cerificate.png" alt="5G basics erificate">
+						<div class="text">5G Basics Cerificate</div>
+					</div>
+					<div class="myslides fade">
+						<div class="numbertext">2 / 5</div>
+						<img class="img1" src="./Next Generation Cyber Security Certificate.png"
+							alt="next generation cyber security certificate">
+						<div class="text">Next Generation Cyber Security Certificate</div>
+					</div>
+					<div class="myslides fade">
+						<div class="numbertext">3 / 5</div>
+						<img class="img1" src="./Data Science Foundation Certificate.jpg"
+							alt="data science foundation certificate">
+						<div class="text">Data Science Foundation Certificate</div>
+					</div>
+					<div class="myslides fade">
+						<div class="numbertext">4 / 5</div>
+						<img class="img1" src="./Programming for Everybody (Getting Started with Python) Certificate.jpg for Everybody (Getting Started with Python) Certificate.jpg"
+							alt="programming for everybody (getting started with python) certificate">
+						<div class="text">Programming for Everybody (Getting Started with Python) Certificate</div>
+					</div>
+					<div class="myslides fade">
+						<div class="numbertext">5 / 5</div>
+						<img class="img1" src="./Google Analytics for Beginners Certificate.jpg Analytics for Beginners Certificate.jpg"
+							alt="google analytics for beginners certificate">
+						<div class="text">Google Analytics for Beginners Certificate</div>
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">❮</a>
+					<a class="next" onclick="plusSlides(1)">❯</a>
+				</div>
+
+				<br>
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+					<span class="dot" onclick="currentSlide(5)"></span>
+				</div>
+				<br>
+				<script>
+					let slideIndex = 1;
+					showSlides(slideIndex);
+
+					function plusSlides(n) {
+						showSlides(slideIndex += n);
+					}
+
+					function currentSlide(n) {
+						showSlides(slideIndex = n);
+					}
+
+					function showSlides(n) {
+						let i;
+						let slides = document.getElementsByClassName("myslides");
+						let dots = document.getElementsByClassName("dot");
+						if (n > slides.length) { slideIndex = 1 }
+						if (n < 1) { slideIndex = slides.length }
+						for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+						}
+						for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+						}
+						slides[slideIndex - 1].style.display = "block";
+						dots[slideIndex - 1].className += " active";
+					}
+				</script>
+			</div>
+
+		</div>
+
+		<div class="main">
+
+			<div class="column-1">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<video autoplay muted loop class="back-video" width="400" height="296">
+					<source src="annasvideo.mp4" type="video/mp4">
+				</video>
+			</div>
+
+			<div class="column-1">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p style="color:black;line-height:1.8;">
+					<span class="bold">Welcome!</span>
+					<br>
+					Anna is a highly motivated and passionate individual who is determined to make a positive impact
+					in her home country of Nigeria.
+
+					Despite being in her 3rd year of study, Anna has already demonstrated a strong commitment to
+					learning and personal development. Her thirst for knowledge has driven her to continuously seek
+					out new opportunities to expand her skills and gain practical experience in her field.
+				</p>
+				
+			</div>
+
+		</div>
+
+	</section>
+
+	<footer>
+
+		<div class="footer-content">
+
+			<div class="footer-section about">
+				<br>
+				<br>
+				<br>
+				<br>
+				<a href="./index.html"><img src="./lostworld.jpeg" alt="lost world."
+						style="width:135px;height:130px;padding:0px;float:left;" /></a>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p>
+					<span class="bold">Anna Akhigbe.</span>
+				</p>
+				<br>
+				<a id="link-icon" href="a.akhigbe@alustudent.com"><i class="fas fa-envelope" aria-hidden="true"
+						style="color:white;font-size:20px;"></i>&nbsp; a.akhigbe@alustudent.com</a>
+				<br>
+				<br>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/anna-akhigbe-9757361a2/"><i class="fab fa-linkedin-in"
+								aria-hidden="true" style="color:white;"></i></a></li>
+
+					<li><a href="https://a-akhigbe.medium.com/"><i class="fab fa-medium-m" aria-hidden="true"
+								style="color:white;"></i></a></li>
+				</ul>
+				<br>
+				<button class="link-4" type="button"
+					onclick="document.getElementById('demo').innerHTML = Date()">Display Time & Date</button>
+
+				<p id="demo"></p>
+			</div>
+
+			<div class="footer-section links">
+				<br>
+				<h2 class="h2">Quick Links</h2>
+				<br>
+				<a style="background-color:transparent;" href="./index.html">Home</a>
+				<img src="./lostworld.jpeg" alt="lost world."
+					style="width:135px;height:130px;padding:0px;float:left;" />
+			</div>
+
+			<div class="footer-section contact">
+				<br>
+				<h2 class="h2">Message Me!</h2>
+				<br>
+				<p> Leave me a message and I would get back to you as soon as I receive it.</p>
+				<br>
+				<form action="http://localhost/demo/personal-website.php">
+					<input type="email" name="email" class="text-input contact-input" placeholder="Email Address"
+						required>
+					<textarea name="message" class="text-input contact-input" placeholder="Your Message..."
+						required></textarea>
+					<button type="submit" class="btn btn-big contact-btn">
+						<i class="fas fa-envelope" aria-hidden="true" style="color:white;font-size:20px;">&nbsp; </i>
+						Send
+					</button>
+				</form>
+			</div>
+
+		</div>
+
+		<div class="footer-bottom">
+			<p>Copyright &copy;
+				<script>document.write(new Date().getFullYear())</script> lost world. | Designed by lost world. All
+				Rights Reserved.
+			</p>
+		</div>
+
+	</footer>
+
+	<script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.com/widget?wc=siqff1aedd189e48a85fa14d9702cf8617f86fbbd2d6a391c12e3b48ddd64f653c3" defer></script>
+
+</body>
+
+</html>
